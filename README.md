@@ -67,7 +67,7 @@ Following the tutorial ["Build Your First Python Chatbot Project"] on DZone, thi
 2. Re-run train_chatbot.py to retrain and update the model files.
 3. Test it via the GUI (gui_chatbot.py).
 
-##Technologies & Dependencies
+## Technologies & Dependencies
 1. Python 3.x
 2. NLTK – Tokenization and lemmatization
 3. Keras (with TensorFlow backend) – Building and training neural network
