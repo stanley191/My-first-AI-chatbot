@@ -42,3 +42,37 @@ Following the tutorial ["Build Your First Python Chatbot Project"] on DZone, thi
 - Trains using SGD optimizer for intent classification
 - Stores model in `chatbot_model.h5`; vocabulary and classes in pickled files
 - Provides a simple GUI (via Tkinter) to interact with the chatbot :contentReference[oaicite:2]{index=2}
+
+## Setup & Installation
+
+1. **Clone the repository**
+   ```bash
+    git clone https://github.com/stanley191/My-first-AI-chatbot.git
+    cd My-first-AI-chatbot
+2. **Create a virtual environment (recommended)**
+    python3 -m venv venv
+    source venv/bin/activate     # macOS/Linux
+    venv\Scripts\activate        # Windows
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
