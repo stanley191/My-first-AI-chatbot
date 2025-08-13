@@ -14,7 +14,6 @@ A simple Python-based AI chatbot that understands user intents and responds appr
 - [Training Your Own Model](#training-your-own-model)
 - [Technologies & Dependencies](#technologies--dependencies)
 - [Contribution](#contribution)
-- [License](#license)
 
 ---
 
@@ -50,19 +49,37 @@ Following the tutorial ["Build Your First Python Chatbot Project"] on DZone, thi
     git clone https://github.com/stanley191/My-first-AI-chatbot.git
     cd My-first-AI-chatbot
 2. **Create a virtual environment (recommended)**
+   ```bash
     python3 -m venv venv
     source venv/bin/activate     # macOS/Linux
     venv\Scripts\activate        # Windows
+3. Install dependencies
+   ```bash
+   pip install nltk keras tensorflow # also need pickles and numoy but are built in libraries to python
+   
+## Usage
+1. Train the Model by running "Train_chatbot.py"
+2. Run the Chatbot GUI
 
+## Training Your Own Model
 
+1. Customize or extend intents.json with new tags, patterns, and responses.
+2. Re-run train_chatbot.py to retrain and update the model files.
+3. Test it via the GUI (gui_chatbot.py).
 
+##Technologies & Dependencies
+1. Python 3.x
+2. NLTK – Tokenization and lemmatization
+3. Keras (with TensorFlow backend) – Building and training neural network
+4. Tkinter – Chat GUI interface
+5. NumPy, pickle – Data handling and serialization
 
-
-
-
-
-
-
+## Contribution
+Contributions are welcome!
+1. Fork the project
+2. Create a feature branch (git checkout -b feature/YourFeature)
+3. Commit your improvements (git commit -m "Add your feature")
+4. Push and open a pull request
 
 
 
