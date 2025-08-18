@@ -24,13 +24,12 @@ Following the tutorial "Build Your First Python Chatbot Project" on DZone, this 
 ---
 
 ## Project Structure
-1 intents.json # Intents with tags, patterns, and responses
-2 train_chatbot.py # Script to train the model
-3 gui_chatbot.py # GUI script to chat with the trained bot
-4 chatbot_model.h5 # Saved Keras model
-5 words.pkl # Vocabulary list (lemmatized words)
-6 classes.pkl # List of intent tags
-7 README.md # This file
+1. intents.json # Intents with tags, patterns, and responses
+2. train_chatbot.py # Script to train the model
+3. gui_chatbot.py # GUI script to chat with the trained bot
+4. chatbot_model.h5 # Saved Keras model
+5. words.pkl # Vocabulary list (lemmatized words)
+6. classes.pkl # List of intent tags
 
 ---
 
