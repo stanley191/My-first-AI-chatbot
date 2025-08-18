@@ -19,7 +19,7 @@ A simple Python-based AI chatbot that understands user intents and responds appr
 
 ## Overview
 
-Following the tutorial ["Build Your First Python Chatbot Project"] on DZone, this project implements an intent-based chatbot from scratch using machine learning. It processes user input, predicts the intent, and returns an appropriate response :contentReference[oaicite:1]{index=1}.
+Following the tutorial "Build Your First Python Chatbot Project" on DZone, this project implements an intent-based chatbot from scratch using machine learning. It processes user input, predicts the intent, and returns an appropriate response.
 
 ---
 
